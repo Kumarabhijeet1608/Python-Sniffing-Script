@@ -33,10 +33,10 @@ sniff(iface=interface, prn=sniffProbes)
   - `ifconfig wlan0 down                   # We are closing it.`
   - `iwconfig wlan0 mode monitor           # Set it to monitor mode.`
   - `ifconfig wlan0 up                     # We are turning it on.`
-- `ifconfig                              # To check it for monitor mode.`
-- `ls                                    # We need to execute the Python Script from the terminal.  `
+- `ifconfig                                # To check it for monitor mode.`
+- `ls                                      # We need to execute the Python Script from the terminal.  `
 - `cd Desktop`
-- `python [File_Name.py]                 # To execute the script.`
+- `python [File_Name.py]                   # To execute the script.`
 
 
 ## Features 😎💰
