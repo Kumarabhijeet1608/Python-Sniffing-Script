@@ -4,9 +4,9 @@
 This project uses Scapy to perform WiFi sniffing, specifically focusing on detecting probe requests from wireless devices. Probe requests are sent by devices searching for available WiFi networks, and capturing these can provide insights into network activity and device behavior.
 
 ## Requirements
-Wireless Network Card and set it to monitor mode.
-Virtual Machine to Execute the Script.
-Install Kali-Linux in the VM.
+**Wireless Network Card and set it to monitor mode.**
+**Virtual Machine to Execute the Script.**
+**Install Kali-Linux in the VM.**
 
 ## Python Script  ✔🔥
 ## Here's a simple Python Script using Scapy to sniff for WiFi probe requests.
