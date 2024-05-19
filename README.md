@@ -26,7 +26,6 @@ def sniffProbes(p):
 sniff(iface=interface, prn=sniffProbes)
 
 ## Execution Steps in Kali Linux 👩‍💻👨‍💻
-
 - ifconfig
 - wlan0 (Wireless Setup)
 - ifconfig wlan0 down                   # We are closing it.
@@ -35,7 +34,7 @@ sniff(iface=interface, prn=sniffProbes)
 - ifconfig                              # To check it for monitor mode.
 - ls                                    # We need to execute the Python Script from the terminal.
 - cd Desktop
-- python [File Name.py]                 # To execute the script.
+- python [File_Name.py]                 # To execute the script.
 
 
 ## Features 😎💰
