@@ -11,19 +11,19 @@ This project uses Scapy to perform WiFi sniffing, specifically focusing on detec
 ## Python Script  ✔🔥
 ## Here's a simple Python Script using Scapy to sniff for WiFi probe requests.
  
-from scapy.all import * 
+`from scapy.all import * `
 
-interface = 'wlan0' 
-probeReqs = []   
+`interface = 'wlan0' `
+`probeReqs = []   `
 
-def sniffProbes(p):  
-    if p.getlayer(Dot11ProbeReq):   
-        netName = p.getlayer(Dot11ProbeReq).info
-        if netName not in probeReqs:
-            probeReqs.append(netName)
-            print('[+] Detected New Probe Request: ' + netName)
+`def sniffProbes(p):`  
+`    if p.getlayer(Dot11ProbeReq):`   
+`        netName = p.getlayer(Dot11ProbeReq).info`
+`        if netName not in probeReqs:`
+`            probeReqs.append(netName)`
+`            print('[+] Detected New Probe Request: ' + netName)`
 
-sniff(iface=interface, prn=sniffProbes)
+`sniff(iface=interface, prn=sniffProbes)`
 
 ## Execution Steps in Kali Linux 👩‍💻👨‍💻
 
