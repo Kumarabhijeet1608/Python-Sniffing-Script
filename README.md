@@ -32,7 +32,7 @@ sniff(iface=interface, prn=sniffProbes)
 - iwconfig wlan0 mode monitor           # Set it to monitor mode.
 - ifconfig wlan0 up                     # We are turning it on.
 - ifconfig                              # To check it for monitor mode.
-- ls                                    # We need to execute the Python Script from the terminal.
+- ls                                    # We need to list down the Python script file for executing it.
 - cd Desktop
 - python [File_Name.py]                 # To execute the script.
 
